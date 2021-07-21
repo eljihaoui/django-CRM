@@ -6,3 +6,15 @@ django-admin startproject  projet .
 django-admin startapp produit
 django-admin startapp commande
 django-admin startapp client
+======== in projet settings.py
+INSTALLED_APPS = [
+    .....
+    'django.contrib.staticfiles',
+    'produit',
+    'client',
+    'commande',
+]
+========== run server
+python manage.py runserver
+Django version 3.2.5, using settings 'projet.settings'
+Starting development server at http://127.0.0.1:8000/
