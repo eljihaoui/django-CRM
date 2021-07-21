@@ -1,0 +1,8 @@
+pip install django
+#Create project in current folder(.)
+django-admin startproject  projet .
+
+#create app
+django-admin startapp produit
+django-admin startapp commande
+django-admin startapp client
